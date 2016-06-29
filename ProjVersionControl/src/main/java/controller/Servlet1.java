@@ -19,7 +19,7 @@ public class Servlet1 extends HttpServlet {
 
 
 
-		System.out.println("master gogogogogo");
+		System.out.println("master gogogogogog");
 
 		System.out.println("tester gogogogo");
 
