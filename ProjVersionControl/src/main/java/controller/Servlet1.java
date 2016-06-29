@@ -22,7 +22,7 @@ public class Servlet1 extends HttpServlet {
 
 		System.out.println("oh Servlet1");
 		System.out.println("yoServlet1");
-
+		System.out.println("zzzzzzz");
 		
 		HttpSession session = request.getSession();
 		session.setAttribute("time", ""+sDateFormat.format(new Date()));
