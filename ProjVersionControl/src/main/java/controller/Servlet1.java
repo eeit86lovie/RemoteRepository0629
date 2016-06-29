@@ -16,6 +16,7 @@ public class Servlet1 extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		System.out.println("Servlet1");
+		System.out.println("第二次commit");
 		
 		
 		HttpSession session = request.getSession();
