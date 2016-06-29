@@ -18,10 +18,15 @@ public class Servlet1 extends HttpServlet {
 
 
 
-		
-		System.out.println("test2");
+
+
+		System.out.println("master gogogogogog");
+
+		System.out.println("tester gogogogo");
+
 		System.out.println("test1");
 		System.out.println("test");
+
 		
 		
 		
