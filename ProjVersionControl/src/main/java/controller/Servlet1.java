@@ -15,10 +15,11 @@ public class Servlet1 extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
+
 		System.out.println("QQ");
 		System.out.println("第二次commit");
 		System.out.println("第三次commit");
-		
+
 		HttpSession session = request.getSession();
 		session.setAttribute("time", ""+sDateFormat.format(new Date()));
 		
