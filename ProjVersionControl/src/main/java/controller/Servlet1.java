@@ -18,6 +18,7 @@ public class Servlet1 extends HttpServlet {
 
 
 
+
 		System.out.println("test333333333");
 		System.out.println("test2");
 		System.out.println("test1");
@@ -25,17 +26,13 @@ public class Servlet1 extends HttpServlet {
 		
 		
 		
-		System.out.println("QQ");
-		System.out.println("第二次commit");
-		System.out.println("第三次commit");
-		System.out.println("最後一次commit");
-		
 
 
 		System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
-
+		System.out.println("ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ");
 		System.out.println("ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ");
 		
+
 
 
 		HttpSession session = request.getSession();
