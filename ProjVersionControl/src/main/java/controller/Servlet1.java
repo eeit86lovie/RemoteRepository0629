@@ -31,15 +31,16 @@ public class Servlet1 extends HttpServlet {
 
 
 
-		System.out.println("Servlet1");
-		System.out.println("Servlet1-2");
-		System.out.println("Servlet1-3");
 
 		System.out.println("oh Servlet1");
+
+		System.out.println("yo  Servlet1");
+		System.out.println("yo Servlet1");
+
+
 		System.out.println("yoServlet1");
 		System.out.println("zzzzzzz");
 		System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
-		
 
 
 		HttpSession session = request.getSession();
