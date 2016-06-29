@@ -11,7 +11,7 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Servlet1</servlet-name>
-		<url-pattern>/servlet1</url-pattern>
+		<url-pattern>/servlet1.controller</url-pattern>
 	</servlet-mapping>
 	
 	<welcome-file-list>
