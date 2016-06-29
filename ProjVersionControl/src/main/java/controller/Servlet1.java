@@ -16,12 +16,23 @@ public class Servlet1 extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 
+		System.out.println("hahahaha Servlet1 修改");
+		System.out.println("第2次 commit Servlet1");
+		System.out.println("第3次 commit Servlet1");
+
+
+		//System.out.println("Servlet1");
+		//System.out.println("call  Servlet1");
+		System.out.println("hahaha  Servlet1");
+
+
 		System.out.println("Servlet1");
 		System.out.println("Servlet1-2");
 		System.out.println("Servlet1-3");
 
 		System.out.println("oh Servlet1");
 		System.out.println("yo  Servlet1");
+
 
 		
 		HttpSession session = request.getSession();
