@@ -17,14 +17,23 @@ public class Servlet1 extends HttpServlet {
 		
 
 
-		System.out.println("Servlet1");
-		System.out.println("Servlet1-2");
-		System.out.println("Servlet1-3");
 
-		System.out.println("oh Servlet1");
-		System.out.println("yoServlet1");
-		System.out.println("zzzzzzz");
+
+		System.out.println("test333333333");
+		System.out.println("test2");
+		System.out.println("test1");
+		System.out.println("test");
 		
+		
+		
+
+
+		System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+		System.out.println("ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ");
+		System.out.println("ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ");
+		
+
+
 
 		HttpSession session = request.getSession();
 		session.setAttribute("time", ""+sDateFormat.format(new Date()));
