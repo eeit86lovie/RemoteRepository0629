@@ -19,6 +19,7 @@ public class Servlet1 extends HttpServlet {
 
 		
 		
+		System.out.println("test1");
 		System.out.println("test");
 		
 		
