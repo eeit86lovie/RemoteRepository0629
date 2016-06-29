@@ -17,6 +17,16 @@ public class Servlet1 extends HttpServlet {
 		
 
 
+
+		
+		
+		System.out.println("test1");
+		System.out.println("test");
+		
+		
+		
+		System.out.println("QQ");
+
 		System.out.println("第二次commit");
 		System.out.println("第三次commit");
 		System.out.println("最後一次commit");
